@@ -22,7 +22,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: 1a12caa41ee35354aa36ce3daaa50817, type: 2}
   m_Tag: 
-  m_SpeedParameter: Direction
+  m_SpeedParameter: direction
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -93,7 +93,7 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: Direction
+  - m_Name: direction
     m_Type: 1
     m_DefaultFloat: 1
     m_DefaultInt: 0

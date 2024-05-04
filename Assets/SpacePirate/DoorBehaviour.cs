@@ -2,24 +2,24 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ChestBehaviour : MonoBehaviour
+public class DoorBehaviour : MonoBehaviour
 {
 
     public Animator animator;
     public bool isOpen = false;
-    public float delay = 3f;
+    public float delay = 2f;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
     private void OnTriggerStay(Collider other)
     {
@@ -32,7 +32,7 @@ public class ChestBehaviour : MonoBehaviour
             if (delay <= 0)
             {
                 isOpen = true;
-                delay = 3f;
+                delay = 2f;
             }
         }
 
@@ -43,7 +43,7 @@ public class ChestBehaviour : MonoBehaviour
             if (delay <= 0)
             {
                 isOpen = false;
-                delay = 3f;
+                delay = 2f;
             }
 
         }
